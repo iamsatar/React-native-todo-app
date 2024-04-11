@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, {createContext, useEffect, useState} from 'react';
 
 type Todo = {
-  id: string;
+  id: number | string;
   text: string;
   completed: boolean;
 };
